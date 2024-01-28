@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #06141b;
+    color: #CCD0CF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14;
+    font-weight: 200;
+}
+
+.section{
+    padding: 10px 50px 10px 50px;
+}
+
+/* -----HOME----- */
+#home{
+    background-color: #06141b;
+    background-image: url(../img/backgroundprt1.png);
+    background-size: cover;
+    min-height: 160px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1.5px solid #31A7F6;
+}
+#myname{
+    color: #00a2ff;
+
+}
+.resalted{
+    color: #037ae9;
+}
+#home h1{
+    font-size: 32px;
+}
+#home h2{
+    font-size: 29px;
+}
+#home h3{
+    font-style: oblique;
+}
+/* CONTACT LIST */
+#ul-reach li{
+    list-style: none;
+    float: left;
+    font-size: 28px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+#ul-reach a:any-link{
+    color: #CCD0CF;
+    text-decoration: none;
+}
+
+#ul-reach a:-moz-any-link{
+    color: #CCD0CF;
+    text-decoration: none;
+}
+
+#ul-reach a:-moz-any-link{
+    color: #CCD0CF;
+    text-decoration: none;
+}
+
+#ul-reach i:hover{
+    color: #037ae9;
+    border-bottom: 2px solid #31A7F6;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#nav{
+    float: right;
+    height: 100%;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#nav ul{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-top: 2px solid #31A7F6;
+    border-left: 2px solid #31A7F6;
+    border-bottom: 2px solid #31A7F6;
+    background-color:black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#nav li{
+    font-size: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+#nav i{
+    font-size: 25px;
+}
+
+#nav a:any-link{
+    color: #CCD0CF;
+    text-decoration: none;
+}
+
+#nav a:-moz-any-link{
+    color: #CCD0CF;
+    text-decoration: none;
+}
+
+#nav a:-moz-any-link{
+    color: #CCD0CF;
+    text-decoration: none;
+} 
+#nav ul li a:hover{
+    color: #037ae9;
+    /* border-bottom: 2px solid #31A7F6; */
+    /* padding-bottom: 5px; */
+    cursor: pointer;
+}
+
+
+/* -----ABOUT----- */
+#about{
+    background-color: #112959;
+    padding-top: 186px;
+}
+.sub{
+    color: whitesmoke;
+}
+
+#aboutnavp{
+    text-align: justify;
+}
+
+/* -----PROJECTS----- */
+#projects{
+    background-color: #0C1D40;
+    
+}
+
+/* -----CONTACT----- */
+#contact{
+    background-color: #061426;
+
+}
